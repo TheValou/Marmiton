@@ -1,0 +1,14 @@
+body {
+	padding-top: 70px;
+	/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.empty
+{
+    border: 2px red solid;
+}
+
+.empty_txt
+{
+	color : red;
+}
