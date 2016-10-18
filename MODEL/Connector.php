@@ -9,6 +9,8 @@ class Connector
     private $PDO_PW = '';
     private static $_instance = NULL;    
 
+//mysql://bacb1bfb30a150:3a84ccab@eu-cdbr-west-01.cleardb.com/heroku_2c626774a6f246b?reconnect=true
+
     private function __construct()
     {
         try

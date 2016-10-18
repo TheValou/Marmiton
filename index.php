@@ -1,5 +1,5 @@
 <?php
 
-echo "Bonjour";
+      require_once('VIEW/index.php');
 
 ?>
