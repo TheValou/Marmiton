@@ -16,7 +16,9 @@ class Connector
     {
         try
         {
-            self::$_instance = new PDO('mysql:dbname=marmiton;host=localhost', 'root', 'root');
+            //self::$_instance = new PDO('mysql:dbname=marmiton;host=localhost', 'root', 'root');
+            self::$_instance = new PDO("mysql:dbname='".$PDO_DBBASE."';host='".$PDO_HOST."', '".$PDO_USER."', '".$PDO_PW.")";
+
         } catch (PDOException $e){;
             print "Erreur !: " . $e->getMessage() . "<br/>";
             die();
